@@ -33,7 +33,7 @@ size_t lomuto_parti(int *array, size_t size, ssize_t lo, ssize_t hi)
 {
 	int k, m, pivot = array[hi];
 
-	for (k = m = lo; m < hi; j++)
+	for (k = m = lo; m < hi; m++)
 		if (array[m] < pivot)
 			swap(array, size, &array[m], &array[k++]);
 	swap(array, size, &array[k], &array[hi]);
