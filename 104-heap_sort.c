@@ -18,8 +18,8 @@ void swap(int *array, size_t size, int *first, int *second)
 		*first = *first + *second;
 		*second = *first - *second;
 		*first = *first - *second;
-		print_array((const int *)array, size);
 	}
+	print_array((const int *)array, size);
 }
 
 /**

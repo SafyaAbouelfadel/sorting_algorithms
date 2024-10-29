@@ -7,7 +7,7 @@
  *
  * Return: void
  */
-void swap(listint_t *first_node, listint_t *second_node)
+void swap(deck_node_t *first_node, deck_node_t *second_node)
 {
 	if (first_node->prev)
 		first_node->prev->next = second_node;
